@@ -134,6 +134,9 @@ body{
     align-items: center;
     margin-top: 10px;
 }
+.news p{
+    text-align: center;
+}
 .news input{
     padding: 11px;
     width: 80vw;
