@@ -222,39 +222,30 @@ body{
 /* contact-box */
 .contact-box{
     text-align: center;
-    background-color: var(--blue);
-    color: white;
-    margin: 20px 150px;
+    background-color: #1D232C;
+    margin: 80px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 40px;
 }
-.contact{
+.contact-box h2{
     text-align: left;
+    padding: 5px;
+    color: #F2F4F7;
 }
-.contact h2{
-    padding-top: 40px;
-    padding-left: 20px ;
-}
-.details{
-    position: relative;
+.contact-box p{
+    color: #F2F4F7;
     text-align: left;
-    padding: 25px;
-    bottom: 10%;
+    padding-left: 4%;
+    margin: 15px 0px;
 }
-.details p{
-    padding: 7px;
-}
-.details input{
-    width: 95%;
-    padding: 18px;
-    border-radius: 3px;
+.contact-details input{
+    width: 90%;
+    font-size: 35px;
+    border-radius: 5px;
     border: none;
-    font-size: 20px;
+    padding: 5px;
 }
-.details div{
-    padding: 10px;
-}
-.details input:focus{
+.contact-details input:focus{
     outline: none;
 }
 
