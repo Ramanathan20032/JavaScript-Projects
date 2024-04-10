@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(128,27,130);
+    background: linear-gradient(90deg, rgba(128,27,130,1) 0%, rgba(190,60,188,1) 28%, rgba(222,78,219,1) 55%, rgba(135,55,210,1) 83%);
+}
+
+.container{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#wrapper{
+    border: 3px solid white;
+    padding:1rem;
+}
+
+.container span{
+    margin-left:10px;
+}
+
+#ampm{
+    font-size:3rem;
+    align-items: end;
+}
