@@ -1,8 +1,8 @@
 body{
     margin:0;
     padding:0;
-    background: rgb(128,27,130);
-    background: linear-gradient(90deg, rgba(128,27,130,1) 0%, rgba(190,60,188,1) 28%, rgba(222,78,219,1) 55%, rgba(135,55,210,1) 83%);
+    background: rgb(204,50,50);
+    background: linear-gradient(90deg, rgba(204,50,50,1) 0%, rgba(141,65,213,1) 100%);
 }
 
 .container{
