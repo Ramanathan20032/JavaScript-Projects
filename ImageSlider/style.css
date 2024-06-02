@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(142, 187, 189);
+}
+.container{
+    min-height: 80vh;
+    width: 60%;
+    border: 8px solid wheat;
+    margin: 3rem auto;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6);
+    position: relative;
+    background: url('1.jpg') center/cover fixed no-repeat;
+    transition: background 5s ease-in-out;
+}
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    background-color: whitesmoke;
+    padding: .4em .6em;
+    border-radius: 50%;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    background-color: whitesmoke;
+    padding: .4em .6em;
+    border-radius: 50%;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}
