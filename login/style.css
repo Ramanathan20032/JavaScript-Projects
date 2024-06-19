@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 16%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 50px;
+}
+
+#btn{
+    padding: 5px;
+    color: azure;
+    background-color: rgb(79, 154, 168);
+    border: none;
+    border-radius: 3px;
+}
+
+input{
+    padding: 7px;
+}
