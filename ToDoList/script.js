@@ -13,20 +13,28 @@ window.onload = ()=> {
     todos.forEach(todo=>addTodo(todo))
 }
 
-button.addEventListener('click',()=>{
-    // push the input value into the todos[] array
-    todos.push(input.value)
-    
-    // converting the javascript object (which is in the key value pair) into JSON String 
-    // by setting the key = todos ; value = input.values
-    localStorage.setItem('todos',JSON.stringify(todos))
+button.addEventListener('click', () => {
+    // Check if the input value is not empty
+    if (input.value.trim() !== '') {
 
-    // to add element inside the todolist div
-    addTodo(input.value)
-    // to make the input box empty after the button is clicked
-    input.value = ''
-    
-})
+        // push the input value into the todos[] array
+        todos.push(input.value);
+
+        // converting the javascript object (which is in the key value pair) into JSON String 
+        // by setting the key = todos ; value = input.values
+        localStorage.setItem('todos', JSON.stringify(todos));
+
+        // to add element inside the todolist div
+        addTodo(input.value);
+
+        // to make the input box empty after the button is clicked
+        input.value = '';
+    } 
+    // ensuring wheather the input is empty
+    else {
+        alert('Please enter a task!');
+    }
+});
 
 function addTodo(todo){
     let para = document.createElement('p')
